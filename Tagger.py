@@ -24,7 +24,7 @@ tekli_calisan = []
 
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("**☇ExtraTaggerBot**\n ilə Qrupunuzdakı Təqribən bütün Üzvlərə Etiket Ata bilərəm \nƏmrlər üçün =======> /help yazın**\nhttps://telegra.ph/file/6313574ae8f92d5059d63.jpg**",
+  await event.reply("**☇ExtraTaggerBot**\n ilə Qrupunuzdakı Təqribən bütün Üzvlərə Etiket Ata bilərəm \nƏmrlər üçün /help yazın**",
                     buttons=(
                    
 		      [Button.url('Məni Qrupa Sal ➕', 'https://t.me/extratagger_bot?startgroup=a')],
